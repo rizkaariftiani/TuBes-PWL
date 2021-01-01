@@ -80,8 +80,6 @@ class ArticleController extends Controller
 		return redirect('/manage');
 	}
 
-
-
 	public function delete($id)
 	{
 		$article = Article::find($id);

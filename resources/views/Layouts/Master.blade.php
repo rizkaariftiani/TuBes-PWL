@@ -48,12 +48,18 @@
             <a class="nav-link" href="{{ url('./home/cetak_pdf') }}">Print Article</a>
             @endcan
           </li>
+          <li class="nav-item">
+            @can('user-display')
+            <a class="nav-link" href="{{ url('./resep') }}">Resep</a>
+            @endcan
+          </li>
           <li class="nav-item dropdown">
             @can('manage-articles')
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manage</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="{{ url('./manage') }}">Manage Article</a>
               <a class="dropdown-item" href="{{ url('./manageuser') }}">Manage User</a>
+              <a class="dropdown-item" href="{{ url('./mKomen') }}">Manage Komen</a>
             </div>
             @endcan
           </li>

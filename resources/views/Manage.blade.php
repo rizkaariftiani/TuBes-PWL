@@ -17,9 +17,10 @@
 				</tr>
 			</thead>
 			<tbody>
+				@php $i=1 @endphp
 				@foreach($article as $a)
 				<tr>
-					<td>{{$a->id}}</td>
+					<td>{{$i++}}</td>
 					<td>{{$a->title}}</td>
 					<td>{{$a->created_at}}</td>
 					<td>
