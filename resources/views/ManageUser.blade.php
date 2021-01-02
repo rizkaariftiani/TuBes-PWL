@@ -17,9 +17,10 @@
 				</tr>
 			</thead>
 			<tbody>
+				@php $i=1 @endphp
 				@foreach($user as $u)
 				<tr>
-					<td>{{$u->id}}</td>
+					<td>{{$i++}}</td>
 					<td>{{$u->name}}</td>
 					<td>{{$u->email}}</td>
 				</tr>

@@ -108,7 +108,7 @@
 
 
 			<!-- Comments Form -->
-			<div class="card my-4">
+			<div class="card">
 				<h5 class="card-header" style="background-color: #2F4F4F">Leave a Comment:</h5>
 				<div class="card-body" style="background-color: #8FBC8F">
 					<a href="mKomen/add" class="btn btn-secondary btn-lg btn-block">Add</a>

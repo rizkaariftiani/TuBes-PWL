@@ -36,7 +36,7 @@ class KomenController extends Controller
             'title' => $request->title,
             'content' => $request->content
         ]);
-        return redirect('/article');
+        return redirect('/resep');
     }
 
     public function edit($id){

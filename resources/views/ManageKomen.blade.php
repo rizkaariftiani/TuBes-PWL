@@ -18,10 +18,10 @@
             <th>Tanggal</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody>@php $i=1 @endphp
         @foreach($komen as $c)
         <tr>
-            <td>{{$c->id}}</td>
+            <td>{{$i++}}</td>
             <td>{{$c->title}}</td>
             <td>{{$c->created_at}}</td>
             <td>
